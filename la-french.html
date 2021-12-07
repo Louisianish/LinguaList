@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaListe</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body class="container">
+    <header class="logo">
+        <h2 class="headline">MaListe</h2>
+    </header>
+    <a href="index.html">
+      <h5 class="trademark">LinguaList par Louisianish Touch&trade;</h5>
+    </a>
+    <div class="main">
+        <form class="form" name="form">
+            <input type="text" id="input" placeholder=" Ajouter quèques affaires . . .">
+            <button type="submit" class="addBtn" title="Ajouter"><i class="fas fa-plus-square"></i></button>
+        </form>
+        <div>
+          <input type="button" class="diacritics" title="Alt+0226" value="â" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0224" value="à" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0225" value="á" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0230" value="æ" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0233" value="é" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0232" value="è" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0234" value="ê" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0235" value="ë" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0238" value="î" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0239" value="ï" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0237" value="í" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0236" value="ì" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0244" value="ô" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0156" value="œ" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0242" value="ò" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0243" value="ó" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0249" value="ù" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0250" value="ú" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0251" value="û" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0231" value="ç" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0241" value="ñ" onclick="valueButton(this);">
+      </div>
+        <div class="todoList">
+            <ul id="list">
+              
+            </ul>
+            <a class="clearAll" id="clearAll">Ôter tout</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>
