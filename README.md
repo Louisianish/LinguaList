@@ -6,6 +6,7 @@ For those using the app on desktop, I have added virtual keys for letters with a
 
 Do you want this list app translated into your language? Feel free to make a pull request or send me the translations for the following phrases at louisianish@gmail.com:
 - "My List"
+- "Create a list in [insert name of language here]"
 - "Add Something"
 - "Delete/Clear All"
 
