@@ -146,6 +146,10 @@ button {
     text-align: center;
     line-height: 1;
     letter-spacing: 0.6em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    opacity: 1;
 }
 
 .diacritics {
