@@ -84,6 +84,7 @@ function handleClearAll(_e) {
 
 // Accent Mark Buttons - Added by Louisianish
 function valueButton(e) {
+    var form = document.querySelector('form');
     form.input.value += e.value;
 }
 
