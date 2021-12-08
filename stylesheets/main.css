@@ -148,6 +148,10 @@ button {
     letter-spacing: 0.6em;
 }
 
+#limousin {
+    letter-spacing: 0.09em;
+}
+
 .diacritics {
     padding: 1px 5.4px;
     margin: auto;
