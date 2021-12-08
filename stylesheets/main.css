@@ -142,10 +142,14 @@ button {
     color: #e63900;
 }
 
+.accentButtons {
+    text-align: center;
+    align-items: stretch;
+}
+
 .diacritics {
     padding: 1px 5.4px;
     margin: auto;
-    align-items: center;
     box-shadow: 2px 1px 2px white, 4px 4px 4px black;
 }
 
