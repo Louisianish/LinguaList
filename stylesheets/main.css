@@ -153,6 +153,7 @@ button {
 }
 
 .diacritics {
+    color: black;
     padding: 1px 5.4px;
     margin: auto;
     box-shadow: 2px 1px 2px white, 4px 4px 4px black;
