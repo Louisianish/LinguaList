@@ -90,11 +90,13 @@ a {
 }
 
 .lang-lists:hover {
-    text-shadow: 2px 2px 2px gold, 4px 4px 4px black;
+    color: black;
+    text-shadow: 2px 2px 2px gold, 4px 4px 4px white;
 }
 
 h4:hover {
-    color: gold;
+    color: black;
+    text-shadow: 2px 2px 2px gold;
 }
 
 .main {
