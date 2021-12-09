@@ -67,8 +67,8 @@ h4 {
     padding: 0 1rem;
     margin: 0 0 20px 0;
     text-align: center;
-    color: black;
-    text-shadow: 1px 1px 1px white, 2px 2px 2px black;
+    color: gold;
+    text-shadow: 2px 2px 2px black;
     font-size: 30px;
     font-weight: normal;
 }
@@ -81,8 +81,8 @@ h4 {
 }
 
 .trademark:hover {
-    color: gold;
-    text-shadow: 2px 2px 2px black; 
+    color: black;
+    text-shadow: 2px 2px 2px gold; 
 }
 
 a {
@@ -157,12 +157,20 @@ button {
     padding: 1px 5.4px;
     margin: auto;
     box-shadow: 2px 1px 2px white, 4px 4px 4px black;
+    border-width: 2px;
     font-size: 20px;
     font-weight: 400;
     /* appearance: none; */
     -webkit-appearance: none;
     -moz-appearance: none;
     opacity: 1;
+}
+
+.diacritics:hover {
+    color: rgb(239, 239, 239);
+    background-color: rgb(133, 133, 133);
+    border-color: rgb(239, 239, 239);
+    border-width: 2px;
 }
 
 .todoList {
