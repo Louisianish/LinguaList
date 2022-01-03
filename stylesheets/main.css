@@ -169,10 +169,8 @@ button {
 }
 
 .diacritics:hover {
-    color: rgb(239, 239, 239);
-    background-color: rgb(133, 133, 133);
-    border-color: rgb(239, 239, 239);
-    border-width: 2px;
+    transform: scale(0.9);
+    box-shadow: 2px 1px 1px white, 4px 4px 3px black;
 }
 
 .todoList {
