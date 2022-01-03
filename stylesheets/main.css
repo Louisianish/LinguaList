@@ -40,6 +40,10 @@ html {
     color: #e63900;
 }
 
+#website:hover {
+    text-shadow: 2px 2px 2px gold, 4px 4px 4px black;
+}
+
 h3 {
     display: flex;
     margin: auto;
