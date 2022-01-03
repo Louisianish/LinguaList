@@ -36,6 +36,10 @@ html {
     font-weight: normal;
 }
 
+#website {
+    color: #e63900;
+}
+
 h3 {
     display: flex;
     margin: auto;
