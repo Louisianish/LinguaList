@@ -102,7 +102,7 @@ function addTodo(todo) {
     li.classList.add('todo-list-item');
     ul.appendChild(li);
 
-    store();
+    // store();
 }
 
 function checkTodo(e) {
